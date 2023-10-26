@@ -1,0 +1,119 @@
+#offcanvasExample, #canvas {
+    display: none;
+   
+
+} 
+.hero{
+    background-color:#19161D;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.nav-link{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+
+.nav-link:hover{
+    color: #ffd700;
+}
+.navbar-brand {
+    width: 10%;
+}
+
+
+.navbar-nav {
+    /* margin-left: 30%; */
+    position: fixed;
+    background-color: #19161D;
+}
+#canvas-btn {
+    visibility: hidden;
+}
+
+main
+{
+    margin: 5% 10%;
+}
+
+
+.main-text h1{
+    color: #fff;
+    line-height: 10vh;
+}
+.main-image {
+    margin-left: 10%;
+}
+.main-image img {
+    width: 120%;
+} 
+.desc-text {
+    opacity: 0.5; font-family: 'Saira Stencil One', sans-serif; font-size: 4em;
+}
+
+.btn {
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 40px;
+    padding: 3% 10%;
+}
+.btn:hover{
+    border: 1px solid #fff;
+    color: gold;
+}
+
+
+@media screen and (max-width:720px) {
+    .navbar-brand{
+        width: 30%;
+    }
+    #canvas-btn {
+        position: fixed;
+        right: 0;
+        visibility: visible;
+    }
+   /* main {
+    margin: 40% 10%;
+   } */
+    .main-text {
+        width: 130%;
+        line-height: 5%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    }
+    .main-text h1 {
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 5vh;
+    }
+    .nav-link {
+        font-size: 0.5em;
+    }
+    .navbar-nav {
+        margin-left: 70%;
+        /* margin-top: -20%; */
+    }
+    #offcanvasExample, #canvas {
+        display: block;
+       
+    
+    }
+    #offcanvasExample {
+        height: 100vh;
+        background-color: #000;
+        color: aliceblue;
+        text-transform: uppercase;
+    }
+    .link {
+        margin-top: 5%;
+    }
+   
+    .main-image img {
+        width: 120%;
+    }
+    .desc-text {
+        font-size: 2em;
+    }
+}
