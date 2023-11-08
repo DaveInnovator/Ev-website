@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 class="text-3xl text-red-600 font-bold underline">Hello world!</h1>
+       <h1 className='text-red-600'>hello</h1>
       </div>
     );
   }
