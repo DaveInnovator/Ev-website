@@ -6,7 +6,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <h1 className='text-red-600'>hello</h1>
+        <nav className='bgImage'>
+          <ul>
+            
+          </ul>
+       </nav>
       </div>
     );
   }
