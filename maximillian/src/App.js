@@ -11,22 +11,22 @@ class App extends Component {
         <div className="bgImage">
           <nav className="text-white fixed w-full">
             <ul className="flex justify-around py-10 items-center">
-              <li>
+              {/* <li>
                 <a>ABOUT</a>
               </li>
               <li>
                 <a>EXPLORE</a>
-              </li>
+              </li> */}
               <li>
                 {/* <img src={logo} alt='swsw' className='w-[4em]'/> */}
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
-              <li>
+              {/* <li>
                 <a>JOURNAL</a>
               </li>
               <li>
                 <a>SEARCH</a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
